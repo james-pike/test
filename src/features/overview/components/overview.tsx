@@ -22,7 +22,7 @@ export default function OverViewPage() {
             Explore, Analyze, and Compare KRC-20 Token Data
           </h2>
           <div className='hidden items-center space-x-2 md:flex'>
-            <Button>Download</Button>
+            <Button>CTA Button</Button>
           </div>
         </div>
         <Tabs defaultValue='overview' className='space-y-4'>
@@ -140,14 +140,9 @@ export default function OverViewPage() {
               </div>
               <Card className='col-span-4 md:col-span-3'>
                 <CardHeader>
-                  <CardTitle>Recent Sales</CardTitle>
-                  <CardDescription>
-                    You made 265 sales this month.
-                  </CardDescription>
+                  <CardTitle>Recent Transactions</CardTitle>
+                  <CardDescription>+8.4% from last week</CardDescription>
                 </CardHeader>
-                <CardContent>
-                  <RecentSales />
-                </CardContent>
               </Card>
               <div className='col-span-4'>
                 <AreaGraph />

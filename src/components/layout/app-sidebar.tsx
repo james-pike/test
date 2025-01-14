@@ -37,10 +37,9 @@ import {
   ChevronRight,
   ChevronsUpDown,
   CreditCard,
-  GalleryVerticalEnd,
   LogOut
 } from 'lucide-react';
-import { signOut, useSession } from 'next-auth/react';
+import { useSession } from 'next-auth/react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import * as React from 'react';
@@ -323,7 +322,7 @@ export default function AppSidebar() {
                   </DropdownMenuItem>
                 </DropdownMenuGroup>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem onClick={() => signOut()}>
+                <DropdownMenuItem onClick={() => {}}>
                   <LogOut />
                   Log out
                 </DropdownMenuItem>

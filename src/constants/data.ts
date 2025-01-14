@@ -23,7 +23,7 @@ export const navItems: NavItem[] = [
   },
   {
     title: 'Search Addresses',
-    url: '/dashboard/overview',
+    url: '#',
     icon: 'product',
     shortcut: ['p', 'p'],
     isActive: false,
@@ -32,7 +32,7 @@ export const navItems: NavItem[] = [
 
   {
     title: 'Top Holders',
-    url: '/dashboard/overview',
+    url: '#',
     icon: 'product',
     shortcut: ['p', 'p'],
     isActive: false,
@@ -47,7 +47,7 @@ export const navItems: NavItem[] = [
     items: [
       {
         title: 'Profile',
-        url: '/dashboard/overview',
+        url: '#',
         icon: 'userPen',
         shortcut: ['m', 'm']
       }
@@ -58,7 +58,7 @@ export const navItems: NavItem[] = [
 export const navItems2: NavItem[] = [
   {
     title: 'All Tokens',
-    url: '/dashboard/overview',
+    url: '#',
     icon: 'dashboard',
     isActive: false,
     shortcut: ['d', 'd'],
@@ -66,7 +66,7 @@ export const navItems2: NavItem[] = [
   },
   {
     title: 'Side By Side',
-    url: '/dashboard/overview',
+    url: '#',
     icon: 'product',
     shortcut: ['p', 'p'],
     isActive: false,
@@ -75,7 +75,7 @@ export const navItems2: NavItem[] = [
 
   {
     title: 'Mint Heatmap',
-    url: '/dashboard/overview',
+    url: '#',
     icon: 'product',
     shortcut: ['p', 'p'],
     isActive: false,
@@ -94,7 +94,7 @@ export const navItems2: NavItem[] = [
 export const navItems3: NavItem[] = [
   {
     title: 'Trade on KSPR',
-    url: '/dashboard/overview',
+    url: '#',
     icon: 'dashboard',
     isActive: false,
     shortcut: ['d', 'd'],
@@ -102,7 +102,7 @@ export const navItems3: NavItem[] = [
   },
   {
     title: 'Mint & Deploy',
-    url: '/dashboard/overview',
+    url: '#',
     icon: 'product',
     shortcut: ['p', 'p'],
     isActive: false,
