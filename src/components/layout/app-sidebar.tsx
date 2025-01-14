@@ -48,7 +48,7 @@ import { Icons } from '../icons';
 export const company = {
   name: 'KatScan',
   logo: '/nacho.svg',
-  plan: 'version 0.2.0'
+  plan: 'version 0.0.2'
 };
 
 export default function AppSidebar() {
