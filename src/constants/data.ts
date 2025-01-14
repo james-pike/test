@@ -15,7 +15,7 @@ export type Product = {
 export const navItems: NavItem[] = [
   {
     title: 'Search Transactions',
-    url: '/dashboard/transactions',
+    url: '/dashboard/overview',
     icon: 'dashboard',
     isActive: false,
     shortcut: ['d', 'd'],
@@ -23,7 +23,7 @@ export const navItems: NavItem[] = [
   },
   {
     title: 'Search Addresses',
-    url: '/dashboard/product',
+    url: '/dashboard/overview',
     icon: 'product',
     shortcut: ['p', 'p'],
     isActive: false,
@@ -32,11 +32,26 @@ export const navItems: NavItem[] = [
 
   {
     title: 'Top Holders',
-    url: '/dashboard/product',
+    url: '/dashboard/overview',
     icon: 'product',
     shortcut: ['p', 'p'],
     isActive: false,
     items: [] // No child items
+  },
+  {
+    title: 'Sample Dropdown',
+    url: '#', // Placeholder as there is no direct link for the parent
+    icon: 'billing',
+    isActive: true,
+
+    items: [
+      {
+        title: 'Profile',
+        url: '/dashboard/overview',
+        icon: 'userPen',
+        shortcut: ['m', 'm']
+      }
+    ]
   }
 ];
 
@@ -51,7 +66,7 @@ export const navItems2: NavItem[] = [
   },
   {
     title: 'Side By Side',
-    url: '/dashboard/product',
+    url: '/dashboard/overview',
     icon: 'product',
     shortcut: ['p', 'p'],
     isActive: false,
@@ -60,7 +75,7 @@ export const navItems2: NavItem[] = [
 
   {
     title: 'Mint Heatmap',
-    url: '/dashboard/product',
+    url: '/dashboard/overview',
     icon: 'product',
     shortcut: ['p', 'p'],
     isActive: false,
@@ -87,7 +102,7 @@ export const navItems3: NavItem[] = [
   },
   {
     title: 'Mint & Deploy',
-    url: '/dashboard/product',
+    url: '/dashboard/overview',
     icon: 'product',
     shortcut: ['p', 'p'],
     isActive: false,
@@ -100,26 +115,5 @@ export const navItems3: NavItem[] = [
     shortcut: ['k', 'k'],
     isActive: false,
     items: [] // No child items
-  },
-  {
-    title: 'Sample Dropdown',
-    url: '#', // Placeholder as there is no direct link for the parent
-    icon: 'billing',
-    isActive: true,
-
-    items: [
-      {
-        title: 'Profile',
-        url: '/dashboard/profile',
-        icon: 'userPen',
-        shortcut: ['m', 'm']
-      },
-      {
-        title: 'Login',
-        shortcut: ['l', 'l'],
-        url: '/',
-        icon: 'login'
-      }
-    ]
   }
 ];
