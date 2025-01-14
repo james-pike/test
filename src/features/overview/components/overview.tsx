@@ -19,7 +19,7 @@ export default function OverViewPage() {
       <div className='flex flex-1 flex-col space-y-2'>
         <div className='flex items-center justify-between space-y-2'>
           <h2 className='text-2xl font-bold tracking-tight'>
-            Hi, Welcome back 👋
+            Explore, Analyze, and Compare KRC-20 Token Data
           </h2>
           <div className='hidden items-center space-x-2 md:flex'>
             <Button>Download</Button>
@@ -27,10 +27,9 @@ export default function OverViewPage() {
         </div>
         <Tabs defaultValue='overview' className='space-y-4'>
           <TabsList>
-            <TabsTrigger value='overview'>Overview</TabsTrigger>
-            <TabsTrigger value='analytics' disabled>
-              Analytics
-            </TabsTrigger>
+            <TabsTrigger value='overview'>KRC-20 Explorer</TabsTrigger>
+            <TabsTrigger value='analytics'>KRC-20 Tokens</TabsTrigger>
+            <TabsTrigger value='tools'>KRC-20 Tools</TabsTrigger>
           </TabsList>
           <TabsContent value='overview' className='space-y-4'>
             <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>

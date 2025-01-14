@@ -16,7 +16,7 @@ export default function NotFound() {
         Something&apos;s missing
       </h2>
       <p>
-        Sorry, the page you are looking for doesn&apos;t exist or has been
+        Sorry, the page you are looking fsor doesn&apos;t exist or has been
         moved.
       </p>
       <div className='mt-8 flex justify-center gap-2'>
