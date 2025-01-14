@@ -29,7 +29,6 @@ export default function OverViewPage() {
           <TabsList>
             <TabsTrigger value='overview'>KRC-20 Explorer</TabsTrigger>
             <TabsTrigger value='analytics'>KRC-20 Tokens</TabsTrigger>
-            <TabsTrigger value='tools'>KRC-20 Tools</TabsTrigger>
           </TabsList>
           <TabsContent value='overview' className='space-y-4'>
             <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
