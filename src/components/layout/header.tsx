@@ -12,7 +12,10 @@ export default function Header() {
       <div className='flex items-center gap-2 px-4'>
         <SidebarTrigger className='-ml-1' />
         <Separator orientation='vertical' className='mr-2 h-4' />
-        <h1>KatScan</h1>
+        <div className='hidden md:block'>
+          <Breadcrumbs />
+        </div>
+        <span className='block text-xl md:hidden'>KatScan</span>
       </div>
 
       <div className='flex items-center gap-2 px-4'>
